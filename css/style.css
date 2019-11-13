@@ -1567,3 +1567,214 @@ h6 {
     margin-bottom: 25px;
   }
 }
+
+#mainNav{
+  background-color:#212529
+}
+
+
+#mainNav .navbar-toggler {
+  font-size:12px;
+  right:0;
+  padding:13px;
+  text-transform:uppercase;color:#fff;
+  border:0;
+  background-color:#286090;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color:#fff;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+ #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover {
+   color:#286090
+ }
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size:90%;
+  font-weight:400;
+  padding:.75em 0;
+  letter-spacing:1px;
+  color:#fff;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color:#286090
+}
+
+
+
+    #mainNav .navbar-brand {
+      font-size:1.75em;
+      -webkit-transition:all .3s;
+      -moz-transition:all .3s;
+      transition:all .3s
+   }
+
+      #mainNav .navbar-nav .nav-item .nav-link {
+        padding:1.1em 1em!important
+   }
+
+   #mainNav.navbar-shrink {
+     padding-top:0;
+     padding-bottom:0;
+     background-color:#212529
+     }
+   #mainNav.navbar-shrink .navbar-brand {
+     font-size:1.25em;
+     padding:12px 0
+     color:#fff;
+     }
+   }
+
+
+   section#contact{
+     background-color:#212529;
+     background-image:url(../img/map-image.png);
+     background-repeat:no-repeat;
+     background-position:center
+
+     }
+section#contact .section-heading{
+  color:#fff
+ }
+
+section#contact .form-group{
+  margin-bottom:25px
+  }
+
+section#contact .form-group input,section#contact .form-group textarea{
+  padding:20px
+  }
+
+section#contact .form-group input.form-control{
+  height:auto
+  }
+
+section#contact .form-group textarea.form-control{
+  height:248px
+  }
+
+section#contact .form-control:focus{
+  border-color:#286090;box-shadow:none
+  }
+
+section#contact ::-webkit-input-placeholder{
+  font-weight:700;
+  color:#ced4da;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+section#contact :-moz-placeholder{
+  font-weight:700;
+  color:#ced4da;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+
+section#contact ::-moz-placeholder{
+  font-weight:700;
+  color:#ced4da;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+ }
+
+section#contact :-ms-input-placeholder{
+  font-weight:700;
+  color:#ced4da;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+
+footer{
+  padding:25px 0;
+  text-align:center
+  }
+
+footer span.copyright{
+  font-size:90%;
+  line-height:40px;
+  text-transform:none;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color:white;
+  }
+
+  footer ul.quicklinks{
+    font-size:90%;
+    line-height:40px;
+    margin-bottom:0;
+    text-transform:none;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+   }
+
+ul.social-buttons{
+  margin-bottom:0
+}
+
+ul.social-buttons li a{
+  font-size:20px;
+  line-height:40px;
+  display:block;width:40px;
+  height:40px;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  transition:all .3s;
+  color:#fff;
+  border-radius:100%;
+  outline:0;
+  background-color:#212529
+}
+
+ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
+  background-color:#286090
+}
+
+
+.bg-light2 {
+background-color: #1F487C;
+}
+.linkblack {
+color: #000;
+text-decoration: none;
+background-color: transparent;
+font-family: helvetica;
+}
+
+
+.greyb {
+  background-color: #D3D3D3;
+}
+
+.greyb2 {
+  /* background-color: rgb(38,82,135,0.8);
+  padding: 8px; */
+}
+
+.nodec {
+font-family: helvetica;
+font-weight: 400;
+}
+
+.sidenav {
+
+height: 100% ;
+width: 100px;
+position: fixed;
+z-index: 99997;
+top: 0;
+right: 0;
+/* background-color: #111; */
+overflow-x: hidden;
+padding-top: 390px;
+}
+
+.mainsitelogo {
+  font-size: 100px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 99%;
+  margin-bottom: 15%;
+    }
